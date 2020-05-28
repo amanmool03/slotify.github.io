@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*, *::before , *::after
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #2F303A;
+	font-family:Poppins , sans-serif;
+	font-size: 1.2rem;
+	color: white;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.full-height-grow
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.logo
+{
+
+}
+.brand-logo
+{
+	display: flex;
+	align-items: center;
+	font-size: 1.25em;
+	color: inherit;
+	text-decoration: none;
+}
+
+.brand-logo-name
+{
+	margin-left: 1rem;	
+}
+.main-nav ul
+{
+	display: flex;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.main-nav a
+{
+	color: inherit;
+	text-decoration: none;
+	padding: 1rem;
+	transition: 0.3s ease;
+}
+.main-nav a:hover
+{
+	color: #adadad;
+}
+
+.main-header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.container
+{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+
+.title
+{
+	font-weight: 500;
+	font-size: 3.5em;
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+.title span
+{
+	color: #CC5ADC;
+}
+.subtitle
+{
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.btn 
+{
+	color: white;
+	/*background: linear-gradient(180deg, #7234A9 0%, #613AA3 100%); */
+	background:#7234A9;
+	padding: .7rem 1.5rem;
+	border-radius: .5rem;
+	text-decoration: none;
+	font-size: .9rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.btn:hover
+{
+	background: rgba(235, 97, 230, 0.8);
+}
+
+
+.overlay
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	display: flex;
+}
+
+.layer
+{
+	background-color: #b2aabf;
+}
+
+.layer-1
+{
+	flex:1;
+
+}
+.layer-2
+{
+	flex:1;
+
+}
+.layer-3
+{
+	flex:1;
+
+}
+
+@media (max-width: 900px)
+{
+	.title
+	{
+		font-size: 3rem;
+		align-self: center;
+	}
+	.subtitle
+	{
+		font-size: 1.2rem;
+	}
+}
+
+.input-group
+{
+	position: relative;
+}
+.input-group i
+{
+	position: absolute;
+	top: 55%;
+	right: 1px;
+	background-color:#202027;
+	padding: 5px 12px;
+	cursor: pointer;
+}
