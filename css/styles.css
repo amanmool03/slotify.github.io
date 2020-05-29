@@ -73,6 +73,7 @@ body
 	max-width: 1300px;
 	margin: 0 auto;
 	padding: 0 20px;
+	flex-grow:1;
 
 }
 
@@ -151,13 +152,25 @@ body
 {
 	.title
 	{
-		font-size: 3rem;
+		font-size: 2rem;
 		align-self: center;
 	}
 	.subtitle
 	{
-		font-size: 1.2rem;
+		font-size: 1.0rem;
+		text-align: center;
 	}
+
+	.brand-logo
+	{
+	font-size: 1em;
+
+	}
+
+.main-nav a
+{
+
+}
 }
 
 .input-group

@@ -1,5 +1,5 @@
 
-		#preloader{
+	/*	#preloader{
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -13,20 +13,42 @@
 			overflow-y: hidden;
 			z-index: 99999;
 
+		}*/
+
+		*
+		{
+			margin: 0;
+			padding: 0;
 		}
+
+			#preloader{
+			height: 100vh;
+			background-color: #2F303A;
+			z-index: 99999;
+			position: relative;
+
+		}
+
 
 		#preloader-container
 		{
 			height: 145px;
 			width: 150px;
 			overflow: hidden;
-			position: relative;	
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+
+
 			
 		}
 
 		#music1{
-			height:50px;
-			
+			height:50px;	
 			animation: floaty 1.4s ease-in-out infinite;
 
 		}
@@ -47,7 +69,7 @@
 		#music3{
 			height:50px;
 			position: absolute;
-			left: 18px;
+			left: 40px;
 			z-index: -1;
 			animation: floatySecond 2s ease-in-out infinite;
 		}
